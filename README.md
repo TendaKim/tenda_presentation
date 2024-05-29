@@ -79,26 +79,26 @@ http://localhost/
 ```bash
 users
 - id auto_increment
-- user_id varchar() null
-- user_password varchar() null
-- save boolean default false
+- user_id varchar() 
+- user_password varchar() 
+- save boolean default false 
 ```
 
 2. 学生
 ```bash
 students
 - user_id (foreign key)
-- name varchar() null
-- img varchar() 
-- before_seat int
+- name varchar() 
+- img varchar() null
+- before_seat int null
 ```
 
 3.前の席
 ```bash
 before_seat
 - user_id (foreign key)
-- row int null
-- coulumn int null
+- row int 
+- coulumn int 
 ```
 
 ### ファイルの構成
