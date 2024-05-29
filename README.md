@@ -79,8 +79,8 @@ http://localhost/
 ```bash
 users
 - id auto_increment
-- user_id varchar(20) null
-- user_password varchar(20) null
+- user_id varchar() null
+- user_password varchar() null
 - save boolean default false
 ```
 
@@ -88,8 +88,8 @@ users
 ```bash
 students
 - user_id (foreign key)
-- name varchar(20) null
-- img varchar(20) 
+- name varchar() null
+- img varchar() 
 - before_seat int
 ```
 
