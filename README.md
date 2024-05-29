@@ -78,7 +78,7 @@ http://localhost/
 1. 利用者
 ```bash
 users
-- id auto_increment
+- id auto_increment primary key
 - user_id varchar() 
 - user_password varchar() 
 - save boolean default false 
