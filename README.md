@@ -120,13 +120,14 @@ web.php
 ```bash
 StudentController.php // 学生の修正の処理
 SeatController.php // 席の決定の処理
+UserController.php // ユーザーの管理の処理
 ```
 
 4. Seeder
 ```bash
 Users
-- user_id kudo
-- user_password kudokudo
+- user_id kim
+- user_password kimkimkim
 
 Students
 - user_id 1
