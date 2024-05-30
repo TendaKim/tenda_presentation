@@ -61,26 +61,6 @@ export class GameCard extends HTMLElement {
     this.append(frontImg, backImg); // カード要素に表と裏の画像を追加
   }
 }
-
-// game-board.js
-// レベルに応じたカード枚数 (非公開)
-  #level = {
-    easy: 2,
-    medium: 4,
-    hard: 6,
-    veryHard: 20,
-  };
-
-  async connectedCallback() {
-    // 同期処理のために
-    const cardInfoList = await this.#fetchCardInfoList(this.#level.veryHard);
-    this.classList.add("board");
-    this.#cards = this.#createCards(cardInfoList);
-    shuffleArray(this.#cards);
-    this.append(...this.#cards);
-    this.#bindEvents();
-  }
-
 ```
 
 2. 同期処理
