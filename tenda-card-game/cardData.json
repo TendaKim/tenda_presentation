@@ -1,0 +1,64 @@
+[
+  {
+    "imagePath": "../img/chawan.jpg",
+    "name": "차완"
+  },
+  {
+    "imagePath": "../img/fujiwara.jpg",
+    "name": "후지와라"
+  },{
+    "imagePath": "../img/fukasawa.jpg",
+    "name": "후카사와"
+  },{
+    "imagePath": "../img/go.jpg",
+    "name": "고"
+  },{
+    "imagePath": "../img/honda.jpg",
+    "name": "혼다"
+  },{
+    "imagePath": "../img/ito.jpg",
+    "name": "이토"
+  },{
+    "imagePath": "../img/kagaya.jpg",
+    "name": "카가야"
+  },{
+    "imagePath": "../img/kanai.jpg",
+    "name": "카나이"
+  },{
+    "imagePath": "../img/kim.jpg",
+    "name": "형규"
+  },{
+    "imagePath": "../img/kimura.jpg",
+    "name": "기무라"
+  },{
+    "imagePath": "../img/konishi.jpg",
+    "name": "코니시"
+  },{
+    "imagePath": "../img/minami.jpg",
+    "name": "미나미"
+  },{
+    "imagePath": "../img/oginosawa.jpg",
+    "name": "오기노사와"
+  },{
+    "imagePath": "../img/onitsuka.jpg",
+    "name": "오니츠카"
+  },{
+    "imagePath": "../img/oura.jpg",
+    "name": "오우라"
+  },{
+    "imagePath": "../img/sakamoto.jpg",
+    "name": "사카모토"
+  },{
+    "imagePath": "../img/sato.jpg",
+    "name": "사토"
+  },{
+    "imagePath": "../img/suda.jpg",
+    "name": "스다"
+  },{
+    "imagePath": "../img/sugano.jpg",
+    "name": "스가노"
+  },{
+    "imagePath": "../img/sunakawa.jpg",
+    "name": "스나카와"
+  }
+]
