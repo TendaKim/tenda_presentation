@@ -3,7 +3,7 @@
 // DBの参考
 require "../db/db_config.php";
 
-//　セッションの利用
+//セッションの利用
 session_start();
 
 // ログインされているのかチェック
